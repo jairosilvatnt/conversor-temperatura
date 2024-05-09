@@ -1,8 +1,14 @@
+import TemperatureConverter from "./components/TemperatureConverter"
+
 /* eslint-desable */
 function App() {
 
   return (
-    <h1 className="font-bold text-2xl">Conversor de temperatura</h1>
+    <>
+      <div className="flex justify-center flex-col items-center w-full h-screen bg-red-400">        
+        <TemperatureConverter />
+      </div>
+    </>
   )
 }
 
