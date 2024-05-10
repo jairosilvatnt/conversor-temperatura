@@ -1,13 +1,11 @@
 import TemperatureConverter from "./components/TemperatureConverter"
-
+import './index.css'
 /* eslint-desable */
 function App() {
 
   return (
     <>
-      <div className="flex justify-center flex-col items-center w-full h-screen bg-red-400">        
-        <TemperatureConverter />
-      </div>
+      <TemperatureConverter />
     </>
   )
 }
